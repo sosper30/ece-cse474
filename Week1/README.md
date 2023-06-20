@@ -50,7 +50,7 @@ Git setup for homework and labs
 - Make the repo **private**
 - Invite Professor, Sanskar, and Waiz to your repo
 - Follow these steps to invite someone on your git repo        [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
-- Our git usernames are: **sosper30**, **sanskarnaik**, and **Waiz?**.
+- Our git usernames are: **sosper30**, **sanskarnaik**, and **waizkhan101**.
 
 Then do
 
