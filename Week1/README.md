@@ -35,39 +35,33 @@ Make a code directory for the course and make it your working directory (use Ter
 Get the code for the course:
 
 ```bash
-git clone https://github.com/sosper30/eep520
+git clone https://github.com/sosper30/ece-cse474
 OR
-git clone git@github.com:sosper30/eep520.git
+git clone git@github.com:sosper30/ece-cse474
 ```
-Nowadays git uses extra layer of protection when cloning private repositories from github, you need to check [this](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls) before cloning any private repository like eep520.
+Nowadays git uses extra layer of protection when cloning private repositories from github, you need to check [this](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls) before cloning any private repository like ece474.
 
-Each week, we will add more code and README files. So you should do:
-```bash
-git pull origin main
-```
-to get the latest code.
-
-Git setup for homework
+Git setup for homework and labs
 ===
 
 - Git is a version control system.
 - Git should be easy to install on any OS
-- Go to Github and make a new repo called 520-Assignments (*with no README*)
+- Go to Github and make a new repo called 474-Assignments (*with no README*)
 - Make the repo **private**
-- Invite Professor, Sanskar, and Booker to your repo
+- Invite Professor, Sanskar, and Waiz to your repo
 - Follow these steps to invite someone on your git repo        [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
-- Our git usernames are: **sosper30**, **sanskarnaik**, and **hubuke**.
+- Our git usernames are: **sosper30**, **sanskarnaik**, and **Waiz?**.
 
 Then do
 
 ```
-mkdir 520-Assignments
-cd 520-Assignments
+mkdir 474-Assignments
+cd 474-Assignments
 touch README.md                # touch command creates a new file on the local machine.
 git init
 git add .
 git commit -m "first commit"
-git remote add origin https://github.com/yourusername/520-Assignments.git
+git remote add origin https://github.com/yourusername/474-Assignments.git
 git push -u origin main
 // edit and/or add some files
 git add .
@@ -84,25 +78,21 @@ Somewhere on your hard drive you should now have
 
 ```bash
   Code/
-    eep520/
+    ee474/
       README.md
       week_1/
-        fractions/
-        hello_c/
-        hello_cpp/
-        Dockerfile
         README.md
-    520-Assignments/
+    474-Assignments/
       README.md
 ```
 
-The Github repo for `eep520` is managed by Professor Sep Makhsous. The Github repo for `520-Assignments` is managed by you.
+The Github repo for `ee474` is managed by Professor Sep Makhsous. The Github repo for `474-Assignments` is managed by you.
 
 How we will use Git
 ===
 
 - We will assign exercises each week.
-- Push your final code for the assignment in your repository, for example, `520-Assignments/hw_1`.
+- Push your final code for the assignment in your repository, for example, `474-Assignments/lab_1`.
 - After pushing your code to the GitHub, make a **release** so that we can get the notification of that version of your code you uploaded.
 - Please follow these steps to make a release:
 - Step 1:
@@ -118,5 +108,5 @@ How we will use Git
   <img width="757" alt="Screen Shot 2023-01-01 at 11 43 23 AM (1)" src="https://user-images.githubusercontent.com/97274991/210183725-c0f8682e-50f9-4eeb-80a0-177160263e18.png">
 
 - We will clone your repo on Sundays mid-day (or there about).
-- For C and C++ exercises, we will replace `unit_test.c` with our own `unit_test.c` and recompile your code. We will put our scripts up on Github (leaving out some details) for you to use and test your code.
+- For C, we will test with our own `unit_test.c` and recompile your code. We will put our scripts up on Github (leaving out some details) for you to use and test your code.
 - <span style="color: red">It is important to name your functions and classes exactly as we specify so that the tests will compile.</span>
