@@ -1,4 +1,4 @@
-# ece-cse474
+# How to use Git
 
 Git
 ===
