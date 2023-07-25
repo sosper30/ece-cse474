@@ -1,6 +1,6 @@
 /**
- * @file main.c
- * @author Your Name
+ * @file DoxygenExample.c
+ * @author Sep Makhsous took it off the internet
  * @date July 23, 2023
  * @brief A simple program to demonstrate the use of Doxygen.
  *
