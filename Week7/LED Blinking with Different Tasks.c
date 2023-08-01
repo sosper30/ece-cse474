@@ -14,7 +14,7 @@ void vTaskBlink1(void *pvParameters) {
     digitalWrite(LED_PIN_1, LOW); // Turn LED_PIN_1 off
     vTaskDelay(1000 / portTICK_PERIOD_MS);  // Delay for a second
     // The vTaskDelay() function puts the task into a Blocked state for a specified 
-    // number of tick periods. This is commonly used to create a periodic task.
+    // number of tick periods. This is commonly used to create a periodic task. Same as our Sleep 474 function but this one is already implemented.
   }
 }
 
