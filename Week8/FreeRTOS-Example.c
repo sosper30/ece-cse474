@@ -28,6 +28,8 @@ void setup() {
       NULL                 // Task handle (not used, so set to NULL)
     );
 
+
+
     // Task 2
     xTaskCreate(flashLED, "FlashLED", 128, NULL, TASK2_PRIORITY, NULL);
 
