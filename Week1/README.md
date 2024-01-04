@@ -48,11 +48,13 @@ Git setup for homework and labs
 - Git should be easy to install on any OS
 - Go to Github and make a new repo called 474-Assignments (*with no README*)
 - Make the repo **private**
-- Invite Professor, Sanskar, and Waiz to your repo
+- Invite Professor, TAs and the Grader to your repo
 - Follow these steps to invite someone on your git repo        [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
-- Our git usernames are: **sosper30**, **sanskarnaik**, and **waizkhan101**.
+- Our git usernames are listed in ICTE 1.
 
-Then do
+**I recommend downloading the GitHub App instead of using the terminal**
+
+But if you want, you can do it using the terminal by following these steps:
 
 ```
 mkdir 474-Assignments
