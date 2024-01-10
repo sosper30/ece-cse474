@@ -1,0 +1,193 @@
+Random seed:  101 
+Problem 1.1 Test Results: 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+Problem 1.2 Test Results: 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 55  385 
+Problem 1.3 Test Results:
+sum:  55 
+sum of squares:  385 
+Problem 1.4 Test Results: 
+sum:                 55 
+sum of squares:      385 
+Problem 2.1 Test Results: 
+ [ 10   2 ]  [ 13   2 ]  [ 7   3 ]  [ 5   2 ]  [ 3   1 ]  [ 4   2 ]  [ 7   1 ] 
+ [ 7   4 ]  [ 9   2 ]  [ 10   1 ]  [ 5   1 ]  [ 3   3 ]  [ 6   1 ]  [ 1   3 ] 
+ [ 13   4 ]  [ 8   4 ]  [ 10   4 ]  [ 6   4 ]  [ 4   1 ]  [ 11   1 ]  [ 8   2 ] 
+ [ 1   1 ]  [ 0   0 ]  [ 11   2 ]  [ 12   4 ]  [ 2   4 ]  [ 7   2 ]  [ 4   4 ] 
+ [ 1   2 ]  [ 8   1 ]  [ 5   3 ]  [ 6   2 ]  [ 13   1 ]  [ 5   4 ]  [ 12   2 ] 
+ [ 12   1 ]  [ 6   3 ]  [ 8   3 ]  [ 11   4 ]  [ 2   1 ]  [ 2   3 ]  [ 3   2 ] 
+ [ 10   3 ]  [ 9   1 ]  [ 11   3 ]  [ 1   4 ]  [ 12   3 ]  [ 9   3 ]  [ 2   2 ] 
+ [ 13   3 ]  [ 9   4 ]  [ 3   4 ] 
+Problem 2.2  Test Results: 
+   2.2.a
+ check 1 card error:  1 
+ check 1 card error:  4 
+   2.2.b
+ 0xFF is not a valid card
+8-bit version of Ace of Spades is a VALID card.
+   2.2.c,d
+card:  1    suit:  1 
+card:  1    suit:  2 
+card:  1    suit:  3 
+card:  1    suit:  4 
+card:  11    suit:  2 
+card:  12    suit:  2 
+card:  13    suit:  4 
+Part 3.1 Test Results:
+ >>>> 0 :  1  1 Ace of Hearts
+ >>>> 1 :  1  2 Ace of Diamonds
+ >>>> 2 :  1  3 Ace of Clubs
+ >>>> 3 :  1  4 Ace of Spades
+ >>>> 4 :  11  2 Jack of Diamonds
+ >>>> 5 :  12  2 Queen of Diamonds
+ >>>> 6 :  13  4 King of Spades
+
+Part 3.2 Test Results:
+Test the deal() function
+
+
+----testing deal: hand:  0 
+Deck count:  0 
+--------dealt hand: 
+the hand: 
+10 of Diamonds
+King of Diamonds
+7 of Clubs
+5 of Diamonds
+3 of Hearts
+4 of Diamonds
+7 of Hearts
+
+
+
+----testing deal: hand:  1 
+Deck count:  7 
+--------dealt hand: 
+the hand: 
+7 of Spades
+9 of Diamonds
+10 of Hearts
+5 of Hearts
+3 of Clubs
+6 of Hearts
+Ace of Clubs
+
+
+
+----testing deal: hand:  2 
+Deck count:  14 
+--------dealt hand: 
+the hand: 
+King of Spades
+8 of Spades
+10 of Spades
+6 of Spades
+4 of Hearts
+Jack of Hearts
+8 of Diamonds
+
+Part 3.3 Test Results:
+Test the finding pokerhands function(s).
+ I have  7  new hands
+I found 1 pairs in hand 0 
+I found 0 three-of-a-kinds in hand 0 
+I found 0 four-of-a-kinds in hand 0 
+Hand 0 the hand: 
+10 of Diamonds
+King of Diamonds
+7 of Clubs
+5 of Diamonds
+3 of Hearts
+4 of Diamonds
+7 of Hearts
+
+I found 0 pairs in hand 1 
+I found 0 three-of-a-kinds in hand 1 
+I found 0 four-of-a-kinds in hand 1 
+Hand 1 the hand: 
+7 of Spades
+9 of Diamonds
+10 of Hearts
+5 of Hearts
+3 of Clubs
+6 of Hearts
+Ace of Clubs
+
+I found 1 pairs in hand 2 
+I found 0 three-of-a-kinds in hand 2 
+I found 0 four-of-a-kinds in hand 2 
+Hand 2 the hand: 
+King of Spades
+8 of Spades
+10 of Spades
+6 of Spades
+4 of Hearts
+Jack of Hearts
+8 of Diamonds
+
+I found 0 pairs in hand 3 
+I found 0 three-of-a-kinds in hand 3 
+I found 0 four-of-a-kinds in hand 3 
+Hand 3 the hand: 
+Ace of Hearts
+Ace of Hearts
+Jack of Diamonds
+Queen of Spades
+2 of Spades
+7 of Diamonds
+4 of Spades
+
+I found 1 pairs in hand 4 
+I found 0 three-of-a-kinds in hand 4 
+I found 0 four-of-a-kinds in hand 4 
+Hand 4 the hand: 
+Ace of Diamonds
+8 of Hearts
+5 of Clubs
+6 of Diamonds
+King of Hearts
+5 of Spades
+Queen of Diamonds
+
+I found 1 pairs in hand 5 
+I found 0 three-of-a-kinds in hand 5 
+I found 0 four-of-a-kinds in hand 5 
+Hand 5 the hand: 
+Queen of Hearts
+6 of Clubs
+8 of Clubs
+Jack of Spades
+2 of Hearts
+2 of Clubs
+3 of Diamonds
+
+I found 1 pairs in hand 6 
+I found 0 three-of-a-kinds in hand 6 
+I found 0 four-of-a-kinds in hand 6 
+Hand 6 the hand: 
+10 of Clubs
+9 of Hearts
+Jack of Clubs
+Ace of Spades
+Queen of Clubs
+9 of Clubs
+2 of Diamonds
