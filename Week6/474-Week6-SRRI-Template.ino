@@ -7,7 +7,7 @@
  * Look for "TODO" and follow the instructions
  */
 
-// Clock frequency in Hz for the microcontroller (usually 16 MHz for Arduino Uno)
+// Clock frequency in Hz for the microcontroller (16 MHz for Arduino)
 #define CLK_FREQ 16000000
 // Clock scale for the timer, adjust based on the timer configuration
 #define CLK_SCALE 1024
